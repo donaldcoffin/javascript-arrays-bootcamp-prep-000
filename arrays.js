@@ -23,6 +23,6 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  days.shift(array)
+  days.shift()
   return array
 }
